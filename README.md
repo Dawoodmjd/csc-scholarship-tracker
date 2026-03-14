@@ -45,12 +45,17 @@ It is designed to help applicants track:
 |   |-- getting-started.md
 |   `-- university-selection-guide.md
 |-- exports/
+|-- reports/
 |-- scripts/
 |   |-- build-program-database.mjs
 |   |-- collect-professor-data.mjs
+|   |-- generate-professor-snapshot.mjs
+|   |-- report-professor-status.mjs
+|   |-- seed-professor-queue.mjs
 |   `-- export-xlsx.ps1
 |-- schema/
 |   `-- csc_program_database.sql
+|-- snapshots/
 |-- workbooks/
 |   |-- csc_host_universities.xlsx
 |   |-- csc_program_catalog.xlsx
@@ -199,6 +204,13 @@ To seed the professor-collection queue from the university tier file:
 
 ```powershell
 npm run seed:professor-queue
+```
+
+To generate a professor snapshot and a review report:
+
+```powershell
+npm run snapshot:professors
+npm run report:professors
 ```
 
 ## Suggested Workflow
