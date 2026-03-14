@@ -64,10 +64,12 @@ async function main() {
   const root = process.cwd();
   const csvPath = path.join(root, "data/professors/professor_master.csv");
   const queuePath = path.join(root, "data/professors/professor_collection_queue.csv");
+  const detailsPath = path.join(root, "data/professors/professor_details.csv");
   const reportPath = path.join(root, "reports/professor_status_report.md");
 
   const professors = parseCsv(await fs.readFile(csvPath, "utf8"));
   const queue = parseCsv(await fs.readFile(queuePath, "utf8"));
+  const details = parseCsv(await fs.readFile(detailsPath, "utf8"));
 
   const missingScholar = professors.filter((row) => !row.google_scholar_url).length;
   const missingResearchGate = professors.filter((row) => !row.researchgate_url).length;
@@ -77,6 +79,10 @@ async function main() {
   const byDepartment = groupCount(professors, "department_name").slice(0, 10);
   const pendingQueue = queue.filter((row) => row.status === "Not started").length;
   const c9Covered = new Set(professors.filter((row) => row.top_bucket === "C9").map((row) => row.university_name)).size;
+  const detailedProfiles = details.length;
+  const detailWithPhone = details.filter((row) => row.office_phone).length;
+  const detailWithEducation = details.filter((row) => row.education_background).length;
+  const detailWithWebsite = details.filter((row) => row.personal_website).length;
 
   const lines = [
     "# Professor Status Report",
@@ -93,6 +99,10 @@ async function main() {
     `- Rows missing citation count: ${missingCitationCount}`,
     `- Universities still pending in collection queue: ${pendingQueue}`,
     `- C9 universities represented in professor master: ${c9Covered}`,
+    `- Detailed professor profiles captured: ${detailedProfiles}`,
+    `- Detailed profiles with phone: ${detailWithPhone}`,
+    `- Detailed profiles with education background: ${detailWithEducation}`,
+    `- Detailed profiles with personal website: ${detailWithWebsite}`,
     "",
     "## Universities Covered",
     "",

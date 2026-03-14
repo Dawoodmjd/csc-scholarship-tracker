@@ -27,6 +27,7 @@ It is designed to help applicants track:
 |   |   `-- csc_program_requirements.csv
 |   |-- professors/
 |   |   |-- professor_collection_queue.csv
+|   |   |-- professor_details.csv
 |   |   `-- professor_master.csv
 |   `-- universities/
 |       |-- by-university/
@@ -62,6 +63,7 @@ It is designed to help applicants track:
 |   |-- csc_program_collection_queue.xlsx
 |   |-- csc_program_requirements.xlsx
 |   |-- professor_collection_queue.xlsx
+|   |-- professor_details.xlsx
 |   |-- professor_master.xlsx
 |   |-- csc_deadlines.xlsx
 |   |-- china_university_tiers.xlsx
@@ -89,6 +91,7 @@ If this is your first time using a repository, open these in order:
 7. [`workbooks/csc_program_catalog.xlsx`](workbooks/csc_program_catalog.xlsx)
 8. [`workbooks/professor_collection_queue.xlsx`](workbooks/professor_collection_queue.xlsx)
 9. [`workbooks/professor_master.xlsx`](workbooks/professor_master.xlsx)
+10. [`workbooks/professor_details.xlsx`](workbooks/professor_details.xlsx)
 
 ## What To Track
 
@@ -155,6 +158,7 @@ Use these files for professor-level collection:
 
 - [`data/professors/professor_master.csv`](data/professors/professor_master.csv)
 - [`data/professors/professor_collection_queue.csv`](data/professors/professor_collection_queue.csv)
+- [`data/professors/professor_details.csv`](data/professors/professor_details.csv)
 
 Read [`docs/professor-collection-guide.md`](docs/professor-collection-guide.md) before collecting faculty data.
 
@@ -179,6 +183,7 @@ The generated workbooks are:
 - `workbooks/csc_program_collection_queue.xlsx`
 - `workbooks/professor_master.xlsx`
 - `workbooks/professor_collection_queue.xlsx`
+- `workbooks/professor_details.xlsx`
 - `workbooks/master_university_contacts.xlsx`
 - `workbooks/university_intake_template.xlsx`
 

@@ -1,6 +1,6 @@
 # Professor Status Report
 
-Generated: 2026-03-14T05:04:02.035Z
+Generated: 2026-03-14T05:08:40.614Z
 
 ## Summary
 
@@ -12,6 +12,10 @@ Generated: 2026-03-14T05:04:02.035Z
 - Rows missing citation count: 49
 - Universities still pending in collection queue: 101
 - C9 universities represented in professor master: 9
+- Detailed professor profiles captured: 7
+- Detailed profiles with phone: 7
+- Detailed profiles with education background: 7
+- Detailed profiles with personal website: 4
 
 ## Universities Covered
 
