@@ -1,0 +1,111 @@
+queue_id,university_name,top_bucket,priority,status,target_scope,official_source_url,last_attempted_on,notes
+PROF-001,Fudan University,C9,High,Not started,All departments and professors,,,Elite comprehensive research university and strong for supervisor-led applications
+PROF-002,Harbin Institute of Technology,C9,High,Not started,All departments and professors,,,Strong engineering and science option with high research output
+PROF-003,Nanjing University,C9,High,Not started,All departments and professors,,,Top research university with strong science and humanities reputation
+PROF-004,Peking University,C9,High,Not started,All departments and professors,,,Top-tier option with intense competition and strong academic prestige
+PROF-005,Shanghai Jiao Tong University,C9,High,Not started,All departments and professors,,,Excellent for engineering interdisciplinary research and international visibility
+PROF-006,Tsinghua University,C9,High,Not started,All departments and professors,,,Top engineering and technology target with very high competition
+PROF-007,University of Science and Technology of China,C9,High,Not started,All departments and professors,,,Excellent for science-focused applications and lab quality
+PROF-008,Xi'an Jiaotong University,C9,High,Not started,All departments and professors,,,Strong research university with comparatively broader access than top Beijing and Shanghai options
+PROF-009,Zhejiang University,C9,High,Not started,All departments and professors,,,Excellent broad-spectrum research university with strong STEM profile
+PROF-010,Beihang University,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for aerospace engineering computer and applied science
+PROF-011,Beijing Institute of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and defense-related research profile
+PROF-012,Beijing Normal University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for education psychology humanities and related social sciences
+PROF-013,Central South University,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering materials transport and medical research
+PROF-014,China Agricultural University,985_non_C9,Medium,Not started,All departments and professors,,,Best fit for agriculture food bioscience and environmental topics
+PROF-015,Chongqing University,985_non_C9,Medium,Not started,All departments and professors,,,Good engineering option and often a practical application target
+PROF-016,Dalian University of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and chemical related research
+PROF-017,East China Normal University,985_non_C9,Medium,Not started,All departments and professors,,,Leading education social science and selected science disciplines
+PROF-018,Huazhong University of Science and Technology,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for engineering medicine and applied sciences
+PROF-019,Hunan University,985_non_C9,Medium,Not started,All departments and professors,,,Useful balanced target especially for engineering management and economics
+PROF-020,Jilin University,985_non_C9,Medium,Not started,All departments and professors,,,Large comprehensive university with broad supervisor availability
+PROF-021,Lanzhou University,985_non_C9,Medium,Not started,All departments and professors,,,Strong in earth science chemistry ecology and western China research areas
+PROF-022,Minzu University of China,985_non_C9,Medium,Not started,All departments and professors,,,More specialized fit for ethnology policy humanities and social studies
+PROF-023,Nankai University,985_non_C9,Medium,Not started,All departments and professors,,,Strong comprehensive university especially for chemistry economics and management
+PROF-024,National University of Defense Technology,985_non_C9,Medium,Not started,All departments and professors,,,Prestigious but international applicant fit varies by program so verify eligibility early
+PROF-025,Northeastern University,985_non_C9,Medium,Not started,All departments and professors,,,Strong industry and engineering orientation
+PROF-026,Northwest A&F University,985_non_C9,Medium,Not started,All departments and professors,,,Strong agriculture plant science and environmental research option
+PROF-027,Northwestern Polytechnical University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for aerospace materials mechanical and control fields
+PROF-028,Ocean University of China,985_non_C9,Medium,Not started,All departments and professors,,,Best fit for marine oceanography fisheries and environmental topics
+PROF-029,Renmin University of China,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for economics public policy law and social sciences
+PROF-030,Shandong University,985_non_C9,Medium,Not started,All departments and professors,,,Large comprehensive university with broad graduate capacity
+PROF-031,Sichuan University,985_non_C9,Medium,Not started,All departments and professors,,,Strong medicine materials chemistry and comprehensive research profile
+PROF-032,South China University of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and industry-connected programs
+PROF-033,Southeast University,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for architecture electronics information and biomedical engineering
+PROF-034,Sun Yat-sen University,985_non_C9,Medium,Not started,All departments and professors,,,Top South China option with strong medicine life science and social science
+PROF-035,Tianjin University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent engineering and chemical technology target
+PROF-036,Tongji University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for architecture civil engineering transportation and urban studies
+PROF-037,University of Electronic Science and Technology of China,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for electronics communication computing and AI
+PROF-038,Wuhan University,985_non_C9,Medium,Not started,All departments and professors,,,Strong comprehensive university with strong GIS remote sensing law and sciences
+PROF-039,Xiamen University,985_non_C9,Medium,Not started,All departments and professors,,,Strong economics management chemistry and marine related fields
+PROF-040,Anhui University,211_only,Low,Not started,All departments and professors,,,Good secondary option and often more realistic than top-tier targets
+PROF-041,Beijing Foreign Studies University,211_only,Low,Not started,All departments and professors,,,Strong for linguistics translation international studies and area studies
+PROF-042,Beijing Forestry University,211_only,Low,Not started,All departments and professors,,,Good for forestry ecology environmental planning and landscape
+PROF-043,Beijing Jiaotong University,211_only,Low,Not started,All departments and professors,,,Strong for transport logistics systems and information engineering
+PROF-044,Beijing Sport University,211_only,Low,Not started,All departments and professors,,,Relevant mainly for sports science and related areas
+PROF-045,Beijing University of Chemical Technology,211_only,Low,Not started,All departments and professors,,,Strong chemical engineering and materials profile
+PROF-046,Beijing University of Chinese Medicine,211_only,Low,Not started,All departments and professors,,,Relevant for traditional medicine and related fields
+PROF-047,Beijing University of Posts and Telecommunications,211_only,Low,Not started,All departments and professors,,,Very strong for telecom computer science cybersecurity and AI
+PROF-048,Beijing University of Technology,211_only,Low,Not started,All departments and professors,,,Practical engineering target in Beijing with good lab options
+PROF-049,Central Conservatory of Music,211_only,Low,Not started,All departments and professors,,,Specialized option mainly for music and performance disciplines
+PROF-050,Central University of Finance and Economics,211_only,Low,Not started,All departments and professors,,,Strong economics finance and public policy option
+PROF-051,Chang'an University,211_only,Low,Not started,All departments and professors,,,Strong in transport civil engineering and road infrastructure
+PROF-052,China Pharmaceutical University,211_only,Low,Not started,All departments and professors,,,Strong for pharmacy pharmaceutical sciences and medicinal chemistry
+PROF-053,China University of Geosciences,211_only,Low,Not started,All departments and professors,,,Good fit for geology earth science environment and resources research
+PROF-054,China University of Mining and Technology,211_only,Low,Not started,All departments and professors,,,Good for mining safety geotechnics and energy studies
+PROF-055,China University of Petroleum,211_only,Low,Not started,All departments and professors,,,Strong if your work relates to petroleum energy or chemical engineering
+PROF-056,China University of Political Science and Law,211_only,Low,Not started,All departments and professors,,,Top law-focused option in China
+PROF-057,Communication University of China,211_only,Low,Not started,All departments and professors,,,Best for media journalism communication and cultural studies
+PROF-058,Dalian Maritime University,211_only,Low,Not started,All departments and professors,,,Specialized maritime shipping and logistics option
+PROF-059,Donghua University,211_only,Low,Not started,All departments and professors,,,Strongest in textiles materials design and selected engineering areas
+PROF-060,East China University of Science and Technology,211_only,Low,Not started,All departments and professors,,,Strong chemistry chemical engineering materials and biotech option
+PROF-061,Fourth Military Medical University,211_only,Low,Not started,All departments and professors,,,Verify international student access before prioritizing
+PROF-062,Fuzhou University,211_only,Low,Not started,All departments and professors,,,Useful practical target especially for engineering and materials
+PROF-063,Guangxi University,211_only,Low,Not started,All departments and professors,,,Balanced regional target with lower competition than many 985 schools
+PROF-064,Guizhou University,211_only,Low,Not started,All departments and professors,,,Useful reach-balance option in western China
+PROF-065,Hainan University,211_only,Low,Not started,All departments and professors,,,Can be attractive for tropical agriculture environment and marine topics
+PROF-066,Harbin Engineering University,211_only,Low,Not started,All departments and professors,,,Strong for naval engineering controls automation and materials
+PROF-067,Hebei University of Technology,211_only,Low,Not started,All departments and professors,,,Practical engineering target with relatively moderate competition
+PROF-068,Hefei University of Technology,211_only,Low,Not started,All departments and professors,,,Strong engineering choice and useful backup to USTC
+PROF-069,Hohai University,211_only,Low,Not started,All departments and professors,,,Excellent for hydrology water resources civil and environmental engineering
+PROF-070,Huazhong Agricultural University,211_only,Low,Not started,All departments and professors,,,Strong agriculture bioscience and food related research
+PROF-071,Huazhong Normal University,211_only,Low,Not started,All departments and professors,,,Useful for education humanities social sciences and selected sciences
+PROF-072,Hunan Normal University,211_only,Low,Not started,All departments and professors,,,Good mainly for education humanities and selected sciences
+PROF-073,Inner Mongolia University,211_only,Low,Not started,All departments and professors,,,Regional option best considered for specific supervisor fit
+PROF-074,Jiangnan University,211_only,Low,Not started,All departments and professors,,,Strong for food science biotech design and light industry
+PROF-075,Jinan University,211_only,Low,Not started,All departments and professors,,,Popular among international students and strong in business medicine and humanities
+PROF-076,Liaoning University,211_only,Low,Not started,All departments and professors,,,Better as a field-fit option than as a prestige-first target
+PROF-077,Nanchang University,211_only,Low,Not started,All departments and professors,,,Reasonable balance target with broad program coverage
+PROF-078,Nanjing Agricultural University,211_only,Low,Not started,All departments and professors,,,Strong agriculture life science and food systems option
+PROF-079,Nanjing Normal University,211_only,Low,Not started,All departments and professors,,,Useful for education humanities public policy and selected sciences
+PROF-080,Nanjing University of Aeronautics and Astronautics,211_only,Low,Not started,All departments and professors,,,Strong for aerospace mechanical control and computer engineering
+PROF-081,Nanjing University of Science and Technology,211_only,Low,Not started,All departments and professors,,,Strong applied engineering electronics controls and materials option
+PROF-082,Ningxia University,211_only,Low,Not started,All departments and professors,,,Use mainly if there is strong supervisor match
+PROF-083,North China Electric Power University,211_only,Low,Not started,All departments and professors,,,Strong for energy power systems and electrical engineering
+PROF-084,Northeast Agricultural University,211_only,Low,Not started,All departments and professors,,,Useful for agricultural specialization
+PROF-085,Northeast Forestry University,211_only,Low,Not started,All departments and professors,,,Useful for forestry ecology and environmental studies
+PROF-086,Northeast Normal University,211_only,Low,Not started,All departments and professors,,,Best for education and selected basic sciences
+PROF-087,Northwest University,211_only,Low,Not started,All departments and professors,,,Useful for earth science archaeology humanities and chemistry
+PROF-088,Qinghai University,211_only,Low,Not started,All departments and professors,,,Use mainly for field fit or regional research goals
+PROF-089,Shaanxi Normal University,211_only,Low,Not started,All departments and professors,,,Good for education humanities and teacher training related fields
+PROF-090,Shanghai International Studies University,211_only,Low,Not started,All departments and professors,,,Best for languages translation and international studies
+PROF-091,Shanghai University,211_only,Low,Not started,All departments and professors,,,Broad urban university and useful balanced target in Shanghai
+PROF-092,Shanghai University of Finance and Economics,211_only,Low,Not started,All departments and professors,,,Strong finance economics and quantitative business option
+PROF-093,Shihezi University,211_only,Low,Not started,All departments and professors,,,Regional target useful mainly for specific program fit
+PROF-094,Soochow University,211_only,Low,Not started,All departments and professors,,,Good broad option with useful science and materials programs
+PROF-095,South China Normal University,211_only,Low,Not started,All departments and professors,,,Best for education psychology and selected sciences
+PROF-096,Southwest Jiaotong University,211_only,Low,Not started,All departments and professors,,,Strong for transportation rail civil and mechanical engineering
+PROF-097,Southwest University,211_only,Low,Not started,All departments and professors,,,Good broad university with education agriculture and psychology strengths
+PROF-098,Southwestern University of Finance and Economics,211_only,Low,Not started,All departments and professors,,,Strong finance economics and management specialization
+PROF-099,Taiyuan University of Technology,211_only,Low,Not started,All departments and professors,,,Mostly useful for engineering-specific fit
+PROF-100,Tianjin Medical University,211_only,Low,Not started,All departments and professors,,,Useful medicine and public health target
+PROF-101,Tibet University,211_only,Low,Not started,All departments and professors,,,Regional option for highly specific goals
+PROF-102,University of International Business and Economics,211_only,Low,Not started,All departments and professors,,,Strong business trade economics and policy option
+PROF-103,University of Science and Technology Beijing,211_only,Low,Not started,All departments and professors,,,Strong metallurgy materials mechanical and industrial engineering
+PROF-104,Wuhan University of Technology,211_only,Low,Not started,All departments and professors,,,Strong materials transport engineering and manufacturing option
+PROF-105,Xidian University,211_only,Low,Not started,All departments and professors,,,Excellent for electronics communication signal processing and cybersecurity
+PROF-106,Xinjiang University,211_only,Low,Not started,All departments and professors,,,Regional option for specific field or supervisor match
+PROF-107,Yanbian University,211_only,Low,Not started,All departments and professors,,,Regional and language-related fit option
+PROF-108,Yunnan University,211_only,Low,Not started,All departments and professors,,,Useful for biodiversity ecology ethnology and regional studies
+PROF-109,Zhengzhou University,211_only,Low,Not started,All departments and professors,,,Very practical large-university target with broad capacity
+PROF-110,Zhongnan University of Economics and Law,211_only,Low,Not started,All departments and professors,,,Good specialized option for economics law and management

@@ -6,6 +6,7 @@
   "scripts": {
     "build:xlsx": "powershell -ExecutionPolicy Bypass -File scripts/export-xlsx.ps1",
     "collect:professors": "node scripts/collect-professor-data.mjs",
-    "build:database": "node scripts/build-program-database.mjs"
+    "build:database": "node scripts/build-program-database.mjs",
+    "seed:professor-queue": "node scripts/seed-professor-queue.mjs"
   }
 }

@@ -311,6 +311,16 @@ $jobs = @(
         Csv = Join-Path $root "data\programs\csc_program_collection_queue.csv"
         Xlsx = Join-Path $outputRoot "csc_program_collection_queue.xlsx"
         Sheet = "Collection Queue"
+    },
+    @{
+        Csv = Join-Path $root "data\professors\professor_master.csv"
+        Xlsx = Join-Path $outputRoot "professor_master.xlsx"
+        Sheet = "Professor Master"
+    },
+    @{
+        Csv = Join-Path $root "data\professors\professor_collection_queue.csv"
+        Xlsx = Join-Path $outputRoot "professor_collection_queue.xlsx"
+        Sheet = "Professor Queue"
     }
 )
 

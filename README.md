@@ -25,6 +25,9 @@ It is designed to help applicants track:
 |   |   |-- csc_program_catalog.csv
 |   |   |-- csc_program_collection_queue.csv
 |   |   `-- csc_program_requirements.csv
+|   |-- professors/
+|   |   |-- professor_collection_queue.csv
+|   |   `-- professor_master.csv
 |   `-- universities/
 |       |-- by-university/
 |       |   |-- README.md
@@ -37,6 +40,7 @@ It is designed to help applicants track:
 |-- docs/
 |   |-- automation-guide.md
 |   |-- database-build-guide.md
+|   |-- professor-collection-guide.md
 |   |-- collection-guide.md
 |   |-- getting-started.md
 |   `-- university-selection-guide.md
@@ -52,6 +56,8 @@ It is designed to help applicants track:
 |   |-- csc_program_catalog.xlsx
 |   |-- csc_program_collection_queue.xlsx
 |   |-- csc_program_requirements.xlsx
+|   |-- professor_collection_queue.xlsx
+|   |-- professor_master.xlsx
 |   |-- csc_deadlines.xlsx
 |   |-- china_university_tiers.xlsx
 |   |-- master_university_contacts.xlsx
@@ -76,6 +82,8 @@ If this is your first time using a repository, open these in order:
 5. [`workbooks/china_university_tiers.xlsx`](workbooks/china_university_tiers.xlsx)
 6. [`workbooks/csc_host_universities.xlsx`](workbooks/csc_host_universities.xlsx)
 7. [`workbooks/csc_program_catalog.xlsx`](workbooks/csc_program_catalog.xlsx)
+8. [`workbooks/professor_collection_queue.xlsx`](workbooks/professor_collection_queue.xlsx)
+9. [`workbooks/professor_master.xlsx`](workbooks/professor_master.xlsx)
 
 ## What To Track
 
@@ -137,6 +145,14 @@ Use these files to build the full CSC-oriented program database:
 
 Read [`docs/database-build-guide.md`](docs/database-build-guide.md) for the collection workflow.
 
+### 5. Full Professor Database
+Use these files for professor-level collection:
+
+- [`data/professors/professor_master.csv`](data/professors/professor_master.csv)
+- [`data/professors/professor_collection_queue.csv`](data/professors/professor_collection_queue.csv)
+
+Read [`docs/professor-collection-guide.md`](docs/professor-collection-guide.md) before collecting faculty data.
+
 ## Excel Workbooks
 
 This repository now supports actual `.xlsx` workbooks under `workbooks/`.
@@ -156,6 +172,8 @@ The generated workbooks are:
 - `workbooks/csc_program_catalog.xlsx`
 - `workbooks/csc_program_requirements.xlsx`
 - `workbooks/csc_program_collection_queue.xlsx`
+- `workbooks/professor_master.xlsx`
+- `workbooks/professor_collection_queue.xlsx`
 - `workbooks/master_university_contacts.xlsx`
 - `workbooks/university_intake_template.xlsx`
 
@@ -175,6 +193,12 @@ To build a single JSON export of the structured university and program database:
 
 ```powershell
 npm run build:database
+```
+
+To seed the professor-collection queue from the university tier file:
+
+```powershell
+npm run seed:professor-queue
 ```
 
 ## Suggested Workflow
