@@ -16,7 +16,7 @@ PROF-014,China Agricultural University,985_non_C9,Medium,Not started,All departm
 PROF-015,Chongqing University,985_non_C9,Medium,Not started,All departments and professors,,,Good engineering option and often a practical application target
 PROF-016,Dalian University of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and chemical related research
 PROF-017,East China Normal University,985_non_C9,Medium,Not started,All departments and professors,,,Leading education social science and selected science disciplines
-PROF-018,Huazhong University of Science and Technology,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for engineering medicine and applied sciences
+PROF-018,Huazhong University of Science and Technology,985_non_C9,Medium,In progress,Computer science related faculty first pass,https://en-cs.hust.edu.cn,2026-03-14,Official CS faculty profiles partially extracted; continue by institute
 PROF-019,Hunan University,985_non_C9,Medium,Not started,All departments and professors,,,Useful balanced target especially for engineering management and economics
 PROF-020,Jilin University,985_non_C9,Medium,Not started,All departments and professors,,,Large comprehensive university with broad supervisor availability
 PROF-021,Lanzhou University,985_non_C9,Medium,Not started,All departments and professors,,,Strong in earth science chemistry ecology and western China research areas
@@ -32,11 +32,11 @@ PROF-030,Shandong University,985_non_C9,Medium,Not started,All departments and p
 PROF-031,Sichuan University,985_non_C9,Medium,Not started,All departments and professors,,,Strong medicine materials chemistry and comprehensive research profile
 PROF-032,South China University of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and industry-connected programs
 PROF-033,Southeast University,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for architecture electronics information and biomedical engineering
-PROF-034,Sun Yat-sen University,985_non_C9,Medium,Not started,All departments and professors,,,Top South China option with strong medicine life science and social science
-PROF-035,Tianjin University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent engineering and chemical technology target
+PROF-034,Sun Yat-sen University,985_non_C9,Medium,In progress,Computer science related faculty first pass,https://cse.sysu.edu.cn,2026-03-14,Official SYSU faculty profiles partially extracted from School of Computer Science and Engineering
+PROF-035,Tianjin University,985_non_C9,Medium,In progress,Computer science related faculty first pass,https://cic.tju.edu.cn,2026-03-14,Official faculty profiles partially extracted from School of Computer Science and College of Intelligence and Computing
 PROF-036,Tongji University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for architecture civil engineering transportation and urban studies
 PROF-037,University of Electronic Science and Technology of China,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for electronics communication computing and AI
-PROF-038,Wuhan University,985_non_C9,Medium,Not started,All departments and professors,,,Strong comprehensive university with strong GIS remote sensing law and sciences
+PROF-038,Wuhan University,985_non_C9,Medium,In progress,Computer science related faculty first pass,https://www.whu.edu.cn,2026-03-14,Official Wuhan University faculty profiles partially extracted for School of Computer Science
 PROF-039,Xiamen University,985_non_C9,Medium,Not started,All departments and professors,,,Strong economics management chemistry and marine related fields
 PROF-040,Anhui University,211_only,Low,Not started,All departments and professors,,,Good secondary option and often more realistic than top-tier targets
 PROF-041,Beijing Foreign Studies University,211_only,Low,Not started,All departments and professors,,,Strong for linguistics translation international studies and area studies

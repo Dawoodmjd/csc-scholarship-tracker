@@ -1,21 +1,21 @@
 # Professor Status Report
 
-Generated: 2026-03-14T05:17:46.337Z
+Generated: 2026-03-14T05:30:39.352Z
 
 ## Summary
 
-- Total professor rows: 61
-- Universities represented in professor master: 11
-- Rows with email populated: 58
-- Rows missing Google Scholar URL: 58
-- Rows missing ResearchGate URL: 61
-- Rows missing citation count: 61
-- Universities still pending in collection queue: 100
+- Total professor rows: 73
+- Universities represented in professor master: 16
+- Rows with email populated: 69
+- Rows missing Google Scholar URL: 70
+- Rows missing ResearchGate URL: 73
+- Rows missing citation count: 73
+- Universities still pending in collection queue: 96
 - C9 universities represented in professor master: 9
-- Detailed professor profiles captured: 7
-- Detailed profiles with phone: 7
-- Detailed profiles with education background: 7
-- Detailed profiles with personal website: 4
+- Detailed professor profiles captured: 14
+- Detailed profiles with phone: 10
+- Detailed profiles with education background: 13
+- Detailed profiles with personal website: 5
 
 ## Universities Covered
 
@@ -27,22 +27,27 @@ Generated: 2026-03-14T05:17:46.337Z
 - Zhejiang University: 5
 - Nanjing University: 5
 - University of Science and Technology of China: 5
+- Huazhong University of Science and Technology: 5
 - Fudan University: 4
 - North China Electric Power University: 3
 - Shenzhen University: 3
+- Tianjin University: 3
+- Wuhan University: 2
+- Tongji University: 1
+- Sun Yat-sen University: 1
 
 ## Top Departments Covered
 
 - Department of Computer Science and Technology: 22
-- School of Computer Science and Technology: 13
+- School of Computer Science and Technology: 19
+- School of Computer Science: 6
 - Department of Computer Science and Engineering: 5
 - College of Computer Science and Technology: 5
-- School of Computer Science: 4
 - Engineering Thermophysics: 3
 - School of Energy: 3
 - School of Energy Science and Engineering: 3
 - School of Architecture and Urban Planning: 2
-- College of Computer Science and Software Engineering: 1
+- College of Intelligence and Computing: 2
 
 ## Manual Review Needed
 
