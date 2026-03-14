@@ -1,85 +1,56 @@
 # Getting Started
 
-This guide is for someone with no GitHub or repository experience.
-
-## What This Repository Is For
-
-You will use this project to manage:
-
-- CSC scholarship requirements
-- deadlines
-- target universities
-- departments
-- professors
-- research interests
-- citation counts
+This repository is designed for building your own research database for French universities.
 
 ## What To Open First
 
 Start with these files:
 
 1. `workbooks/required_documents.xlsx`
-2. `workbooks/csc_deadlines.xlsx`
-3. `workbooks/master_university_contacts.xlsx`
+2. `workbooks/application_deadlines.xlsx`
+3. `workbooks/french_university_master.xlsx`
 
-If you prefer plain text or GitHub editing, use the matching CSV files in `data/`.
+If you prefer editing on GitHub, use the matching CSV files inside `data/`.
 
 ## Suggested First Steps
 
-1. Open `required_documents.xlsx` and mark what you already have.
-2. Open `csc_deadlines.xlsx` and enter any known application dates.
-3. Open `master_university_contacts.xlsx` and add one university at a time.
-4. For each professor, add:
-   - department
+1. Open `required_documents.xlsx` and mark what is already prepared.
+2. Open `application_deadlines.xlsx` and enter dates from official university pages.
+3. Open `french_university_master.xlsx` and add one university at a time.
+4. For each professor, record:
+   - department name
+   - program name
    - research area
-   - faculty page
+   - faculty profile
    - ResearchGate profile
    - Google Scholar profile
    - citation count
-5. Save your changes back to the CSV or workbook files in this repo.
+   - citation check date
 
 ## If You Want One File Per University
 
-Use:
+Copy:
 
 - `workbooks/university_intake_template.xlsx`
 
-Create a copy for each university inside:
+into your own university-specific files inside:
 
 - `data/universities/by-university/`
 
 Suggested names:
 
-- `tsinghua-university.csv`
-- `zhejiang-university.csv`
-- `fudan-university.csv`
+- `sorbonne-universite.csv`
+- `universite-paris-saclay.csv`
+- `aix-marseille-universite.csv`
 
-## If You Want Automatic Help
+## Publishing To GitHub
 
-Use the professor data collector:
-
-```powershell
-npm.cmd run collect:professors -- --input data/universities/professor_seed_template.csv --output data/universities/professor_enriched_output.csv
-```
-
-Read:
-
-- `docs/automation-guide.md`
-
-## If You Want To Publish To GitHub
-
-You will need:
-
-- a GitHub account
-- a new empty repository on GitHub
-
-Then run:
+Create an empty GitHub repository, then run:
 
 ```powershell
 git add .
-git commit -m "Initial CSC scholarship repository"
+git commit -m "Initial French universities repository"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 git push -u origin main
 ```
-

@@ -1,0 +1,4 @@
+country,university_name,city,department_name,program_name,deadline_type,deadline_date,status,official_link,notes
+France,Sorbonne Universite,Paris,Computer Science,Master in Computer Science,Application portal opens,,Planned,,Fill from the official admissions page
+France,Sorbonne Universite,Paris,Computer Science,Master in Computer Science,Application portal closes,,Planned,,Track the final submission date
+France,Universite Paris-Saclay,Gif-sur-Yvette,Electrical Engineering,Master in Electronics and Electrical Engineering,Application portal closes,,Planned,,Add scholarship and departmental deadlines if different

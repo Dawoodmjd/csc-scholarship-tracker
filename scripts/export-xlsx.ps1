@@ -273,64 +273,19 @@ $jobs = @(
         Sheet = "Required Documents"
     },
     @{
-        Csv = Join-Path $root "data\deadlines\csc_deadlines.csv"
-        Xlsx = Join-Path $outputRoot "csc_deadlines.xlsx"
-        Sheet = "CSC Deadlines"
+        Csv = Join-Path $root "data\deadlines\application_deadlines.csv"
+        Xlsx = Join-Path $outputRoot "application_deadlines.xlsx"
+        Sheet = "Application Deadlines"
     },
     @{
-        Csv = Join-Path $root "data\universities\master_university_contacts.csv"
-        Xlsx = Join-Path $outputRoot "master_university_contacts.xlsx"
-        Sheet = "University Contacts"
+        Csv = Join-Path $root "data\universities\french_university_master.csv"
+        Xlsx = Join-Path $outputRoot "french_university_master.xlsx"
+        Sheet = "University Master"
     },
     @{
         Csv = Join-Path $root "data\universities\university_intake_template.csv"
         Xlsx = Join-Path $outputRoot "university_intake_template.xlsx"
         Sheet = "University Template"
-    },
-    @{
-        Csv = Join-Path $root "data\universities\china_university_tiers.csv"
-        Xlsx = Join-Path $outputRoot "china_university_tiers.xlsx"
-        Sheet = "China University Tiers"
-    },
-    @{
-        Csv = Join-Path $root "data\universities\csc_host_universities.csv"
-        Xlsx = Join-Path $outputRoot "csc_host_universities.xlsx"
-        Sheet = "CSC Host Universities"
-    },
-    @{
-        Csv = Join-Path $root "data\programs\csc_program_catalog.csv"
-        Xlsx = Join-Path $outputRoot "csc_program_catalog.xlsx"
-        Sheet = "CSC Program Catalog"
-    },
-    @{
-        Csv = Join-Path $root "data\programs\csc_program_requirements.csv"
-        Xlsx = Join-Path $outputRoot "csc_program_requirements.xlsx"
-        Sheet = "Program Requirements"
-    },
-    @{
-        Csv = Join-Path $root "data\programs\csc_program_collection_queue.csv"
-        Xlsx = Join-Path $outputRoot "csc_program_collection_queue.xlsx"
-        Sheet = "Collection Queue"
-    },
-    @{
-        Csv = Join-Path $root "data\professors\professor_master.csv"
-        Xlsx = Join-Path $outputRoot "professor_master.xlsx"
-        Sheet = "Professor Master"
-    },
-    @{
-        Csv = Join-Path $root "data\professors\professor_collection_queue.csv"
-        Xlsx = Join-Path $outputRoot "professor_collection_queue.xlsx"
-        Sheet = "Professor Queue"
-    },
-    @{
-        Csv = Join-Path $root "data\professors\professor_details.csv"
-        Xlsx = Join-Path $outputRoot "professor_details.xlsx"
-        Sheet = "Professor Details"
-    },
-    @{
-        Csv = Join-Path $root "data\professors\professor_outreach.csv"
-        Xlsx = Join-Path $outputRoot "professor_outreach.xlsx"
-        Sheet = "Professor Outreach"
     }
 )
 

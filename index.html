@@ -3,40 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CSC Scholarship Repository</title>
+  <title>French Universities Application Repository</title>
   <style>
     :root {
-      --bg: #f6f2e8;
-      --paper: rgba(255, 252, 245, 0.92);
-      --ink: #1f2a2e;
-      --muted: #58686e;
-      --accent: #ba4a2f;
-      --accent-2: #2f6c63;
-      --line: rgba(31, 42, 46, 0.12);
-      --shadow: 0 20px 60px rgba(70, 51, 30, 0.12);
+      --bg: #f5efe5;
+      --panel: rgba(255, 251, 245, 0.92);
+      --ink: #1f2933;
+      --muted: #5c6b73;
+      --accent: #0d5c63;
+      --accent-soft: #d9a441;
+      --line: rgba(31, 41, 51, 0.12);
+      --shadow: 0 24px 60px rgba(42, 49, 55, 0.14);
     }
 
     * { box-sizing: border-box; }
 
     body {
       margin: 0;
-      font-family: Georgia, "Times New Roman", serif;
+      min-height: 100vh;
+      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, rgba(186, 74, 47, 0.14), transparent 28%),
-        radial-gradient(circle at bottom right, rgba(47, 108, 99, 0.12), transparent 30%),
-        linear-gradient(180deg, #f8f3ea, #efe6d6);
-      min-height: 100vh;
+        radial-gradient(circle at top left, rgba(13, 92, 99, 0.16), transparent 26%),
+        radial-gradient(circle at bottom right, rgba(217, 164, 65, 0.18), transparent 24%),
+        linear-gradient(180deg, #f7f2e8, #ede3d4);
     }
 
     .wrap {
-      width: min(1100px, calc(100% - 32px));
+      width: min(1120px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 40px 0 64px;
+      padding: 36px 0 56px;
     }
 
     .hero {
-      background: var(--paper);
+      background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 28px;
       box-shadow: var(--shadow);
@@ -44,55 +44,26 @@
     }
 
     .eyebrow {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
+      margin: 0 0 10px;
       color: var(--accent);
-      margin: 0 0 12px;
+      font-size: 0.82rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
     }
 
     h1 {
-      font-size: clamp(2.2rem, 5vw, 4.4rem);
-      line-height: 0.95;
       margin: 0 0 16px;
-      max-width: 10ch;
+      font-size: clamp(2.4rem, 5vw, 4.8rem);
+      line-height: 0.94;
+      max-width: 11ch;
     }
 
     .lead {
-      font-size: 1.1rem;
+      max-width: 64ch;
+      margin: 0;
+      color: var(--muted);
       line-height: 1.7;
-      color: var(--muted);
-      max-width: 62ch;
-      margin: 0;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 18px;
-      margin-top: 28px;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.7);
-      border: 1px solid var(--line);
-      border-radius: 20px;
-      padding: 22px;
-    }
-
-    .card h2 {
-      margin: 0 0 10px;
-      font-size: 1.15rem;
-    }
-
-    .card p, li {
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    ul {
-      padding-left: 18px;
-      margin: 0;
+      font-size: 1.08rem;
     }
 
     .actions {
@@ -109,18 +80,43 @@
       text-decoration: none;
       font-weight: 700;
       border: 1px solid var(--line);
-      color: var(--ink);
       background: white;
+      color: var(--ink);
     }
 
     .button.primary {
       background: var(--accent);
-      color: #fff7f2;
+      color: #f7fbfb;
       border-color: transparent;
     }
 
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
     .footer {
-      margin-top: 28px;
+      margin-top: 26px;
       color: var(--muted);
       font-size: 0.95rem;
     }
@@ -129,44 +125,43 @@
 <body>
   <main class="wrap">
     <section class="hero">
-      <p class="eyebrow">Chinese Scholarship CSC</p>
-      <h1>Track documents, deadlines, and professors in one place.</h1>
+      <p class="eyebrow">French University Research</p>
+      <h1>Track documents, deadlines, departments, and professors.</h1>
       <p class="lead">
-        This repository helps applicants organize CSC requirements, shortlist universities,
-        compare departments, and research professors with links to faculty pages, ResearchGate,
-        Google Scholar, and citation counts.
+        Use this repository to build a clean application database for French universities,
+        compare departments, track required documents, and save ResearchGate and Google Scholar
+        links with citation counts for each professor you shortlist.
       </p>
 
       <div class="actions">
         <a class="button primary" href="./README.md">Open README</a>
         <a class="button" href="./docs/getting-started.md">Getting Started</a>
-        <a class="button" href="./docs/automation-guide.md">Automation Guide</a>
+        <a class="button" href="./docs/research-collection-guide.md">Collection Guide</a>
       </div>
 
       <div class="grid">
         <article class="card">
           <h2>Documents</h2>
-          <p>Track passports, certificates, transcripts, recommendation letters, medical forms, and language proof.</p>
+          <p>Track passports, transcripts, CVs, motivation letters, recommendation letters, and research proposals.</p>
         </article>
         <article class="card">
           <h2>Deadlines</h2>
-          <p>Record CSC, embassy, university, and supervisor-contact dates in one workflow.</p>
+          <p>Record application openings, closings, interviews, and scholarship milestones by university and program.</p>
         </article>
         <article class="card">
-          <h2>Universities</h2>
-          <p>Build a research-focused list of departments, labs, professors, and application targets.</p>
+          <h2>Research Fit</h2>
+          <p>Compare departments, labs, and professor research areas in one filterable master sheet.</p>
         </article>
         <article class="card">
           <h2>Profiles</h2>
-          <p>Store ResearchGate and Google Scholar links with citation counts and check dates.</p>
+          <p>Save ResearchGate, Google Scholar, and university profile URLs alongside citation counts and notes.</p>
         </article>
       </div>
 
       <p class="footer">
-        Tip: update the CSV files in <code>data/</code>, then regenerate the Excel workbooks in <code>workbooks/</code>.
+        Update the CSV files in <code>data/</code>, then run <code>npm run build:xlsx</code> to refresh the Excel workbooks.
       </p>
     </section>
   </main>
 </body>
 </html>
-
