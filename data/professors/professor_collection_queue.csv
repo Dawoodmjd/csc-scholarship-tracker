@@ -1,13 +1,13 @@
 queue_id,university_name,top_bucket,priority,status,target_scope,official_source_url,last_attempted_on,notes
-PROF-001,Fudan University,C9,High,Not started,All departments and professors,,,Elite comprehensive research university and strong for supervisor-led applications
-PROF-002,Harbin Institute of Technology,C9,High,Not started,All departments and professors,,,Strong engineering and science option with high research output
-PROF-003,Nanjing University,C9,High,Not started,All departments and professors,,,Top research university with strong science and humanities reputation
-PROF-004,Peking University,C9,High,Not started,All departments and professors,,,Top-tier option with intense competition and strong academic prestige
-PROF-005,Shanghai Jiao Tong University,C9,High,Not started,All departments and professors,,,Excellent for engineering interdisciplinary research and international visibility
-PROF-006,Tsinghua University,C9,High,Not started,All departments and professors,,,Top engineering and technology target with very high competition
-PROF-007,University of Science and Technology of China,C9,High,Not started,All departments and professors,,,Excellent for science-focused applications and lab quality
-PROF-008,Xi'an Jiaotong University,C9,High,Not started,All departments and professors,,,Strong research university with comparatively broader access than top Beijing and Shanghai options
-PROF-009,Zhejiang University,C9,High,Not started,All departments and professors,,,Excellent broad-spectrum research university with strong STEM profile
+PROF-001,Fudan University,C9,High,In progress,Computer science related faculty first pass,https://cs.fudan.edu.cn,2026-03-14,Official CS profiles partially extracted; continue by department
+PROF-002,Harbin Institute of Technology,C9,High,In progress,Computer science related faculty first pass,https://cs.hit.edu.cn,2026-03-14,Official CS faculty directory identified; continue detailed profile extraction
+PROF-003,Nanjing University,C9,High,In progress,Computer science related faculty first pass,https://cs.nju.edu.cn,2026-03-14,Official CS profiles partially extracted; continue by department
+PROF-004,Peking University,C9,High,In progress,Computer science related faculty first pass,https://eecs.pku.edu.cn,2026-03-14,Official PKU EECS computer science first pass extracted; other departments still pending
+PROF-005,Shanghai Jiao Tong University,C9,High,In progress,Computer science related faculty first pass,https://cs.sjtu.edu.cn,2026-03-14,Official CS profiles partially extracted; continue by research group
+PROF-006,Tsinghua University,C9,High,In progress,Computer science related faculty first pass,https://www.cs.tsinghua.edu.cn,2026-03-14,Official CS and media faculty profiles partially extracted
+PROF-007,University of Science and Technology of China,C9,High,In progress,Computer science related faculty first pass,https://cs.ustc.edu.cn,2026-03-14,Official CS faculty profiles partially extracted; continue by professor page
+PROF-008,Xi'an Jiaotong University,C9,High,In progress,Computer science related faculty first pass,https://cs.xjtu.edu.cn,2026-03-14,Official CS and AI school profiles partially extracted; continue by department
+PROF-009,Zhejiang University,C9,High,In progress,Computer science related faculty first pass,https://www.cs.zju.edu.cn,2026-03-14,Official computer science faculty profiles partially extracted; continue by institute
 PROF-010,Beihang University,985_non_C9,Medium,Not started,All departments and professors,,,Very strong for aerospace engineering computer and applied science
 PROF-011,Beijing Institute of Technology,985_non_C9,Medium,Not started,All departments and professors,,,Strong engineering and defense-related research profile
 PROF-012,Beijing Normal University,985_non_C9,Medium,Not started,All departments and professors,,,Excellent for education psychology humanities and related social sciences

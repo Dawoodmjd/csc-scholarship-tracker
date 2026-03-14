@@ -76,6 +76,7 @@ async function main() {
   const byUniversity = groupCount(professors, "university_name");
   const byDepartment = groupCount(professors, "department_name").slice(0, 10);
   const pendingQueue = queue.filter((row) => row.status === "Not started").length;
+  const c9Covered = new Set(professors.filter((row) => row.top_bucket === "C9").map((row) => row.university_name)).size;
 
   const lines = [
     "# Professor Status Report",
@@ -91,6 +92,7 @@ async function main() {
     `- Rows missing ResearchGate URL: ${missingResearchGate}`,
     `- Rows missing citation count: ${missingCitationCount}`,
     `- Universities still pending in collection queue: ${pendingQueue}`,
+    `- C9 universities represented in professor master: ${c9Covered}`,
     "",
     "## Universities Covered",
     "",
@@ -105,7 +107,7 @@ async function main() {
     "- Verify Google Scholar links for all rows currently missing profile URLs.",
     "- Verify ResearchGate links for all rows currently missing profile URLs.",
     "- Verify citation counts before using them in application prioritization.",
-    "- Extend coverage from Peking University to the rest of the C9 queue.",
+    "- Extend from the current CS-related first pass into more departments and schools inside each C9 university.",
     ""
   ];
 
@@ -118,4 +120,3 @@ main().catch((error) => {
   process.stderr.write(`${error.message}\n`);
   process.exitCode = 1;
 });
-
