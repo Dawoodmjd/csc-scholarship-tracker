@@ -1,0 +1,3 @@
+requirement_id,program_id,degree_level,requirement_name,required,details,source_url,source_last_checked,notes
+REQ-SAMPLE-1,PKU-CS-PHD,PhD,Master degree certificate,Yes,Required for PhD application according to official admissions instructions,https://www.campuschina.org/Upload/file/20240408/20240408111909_5912.pdf,2026-03-14,Replace with university-specific requirement source when available
+

@@ -291,6 +291,26 @@ $jobs = @(
         Csv = Join-Path $root "data\universities\china_university_tiers.csv"
         Xlsx = Join-Path $outputRoot "china_university_tiers.xlsx"
         Sheet = "China University Tiers"
+    },
+    @{
+        Csv = Join-Path $root "data\universities\csc_host_universities.csv"
+        Xlsx = Join-Path $outputRoot "csc_host_universities.xlsx"
+        Sheet = "CSC Host Universities"
+    },
+    @{
+        Csv = Join-Path $root "data\programs\csc_program_catalog.csv"
+        Xlsx = Join-Path $outputRoot "csc_program_catalog.xlsx"
+        Sheet = "CSC Program Catalog"
+    },
+    @{
+        Csv = Join-Path $root "data\programs\csc_program_requirements.csv"
+        Xlsx = Join-Path $outputRoot "csc_program_requirements.xlsx"
+        Sheet = "Program Requirements"
+    },
+    @{
+        Csv = Join-Path $root "data\programs\csc_program_collection_queue.csv"
+        Xlsx = Join-Path $outputRoot "csc_program_collection_queue.xlsx"
+        Sheet = "Collection Queue"
     }
 )
 

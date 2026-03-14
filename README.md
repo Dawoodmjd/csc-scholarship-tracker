@@ -21,23 +21,37 @@ It is designed to help applicants track:
 |   |   `-- required_documents.csv
 |   |-- deadlines/
 |   |   `-- csc_deadlines.csv
+|   |-- programs/
+|   |   |-- csc_program_catalog.csv
+|   |   |-- csc_program_collection_queue.csv
+|   |   `-- csc_program_requirements.csv
 |   `-- universities/
 |       |-- by-university/
 |       |   |-- README.md
 |       |   `-- example-university.csv
 |       |-- china_university_tiers.csv
+|       |-- csc_host_universities.csv
 |       |-- master_university_contacts.csv
 |       |-- professor_seed_template.csv
 |       `-- university_intake_template.csv
 |-- docs/
 |   |-- automation-guide.md
+|   |-- database-build-guide.md
 |   |-- collection-guide.md
 |   |-- getting-started.md
 |   `-- university-selection-guide.md
+|-- exports/
 |-- scripts/
+|   |-- build-program-database.mjs
 |   |-- collect-professor-data.mjs
 |   `-- export-xlsx.ps1
+|-- schema/
+|   `-- csc_program_database.sql
 |-- workbooks/
+|   |-- csc_host_universities.xlsx
+|   |-- csc_program_catalog.xlsx
+|   |-- csc_program_collection_queue.xlsx
+|   |-- csc_program_requirements.xlsx
 |   |-- csc_deadlines.xlsx
 |   |-- china_university_tiers.xlsx
 |   |-- master_university_contacts.xlsx
@@ -60,6 +74,8 @@ If this is your first time using a repository, open these in order:
 3. [`workbooks/csc_deadlines.xlsx`](workbooks/csc_deadlines.xlsx)
 4. [`workbooks/master_university_contacts.xlsx`](workbooks/master_university_contacts.xlsx)
 5. [`workbooks/china_university_tiers.xlsx`](workbooks/china_university_tiers.xlsx)
+6. [`workbooks/csc_host_universities.xlsx`](workbooks/csc_host_universities.xlsx)
+7. [`workbooks/csc_program_catalog.xlsx`](workbooks/csc_program_catalog.xlsx)
 
 ## What To Track
 
@@ -111,6 +127,16 @@ Use [`data/universities/master_university_contacts.csv`](data/universities/maste
 
 If you want to create one file per university, duplicate [`data/universities/university_intake_template.csv`](data/universities/university_intake_template.csv) into the `data/universities/by-university/` folder.
 
+### 4. Full Master and PhD Program Database
+Use these files to build the full CSC-oriented program database:
+
+- [`data/universities/csc_host_universities.csv`](data/universities/csc_host_universities.csv)
+- [`data/programs/csc_program_catalog.csv`](data/programs/csc_program_catalog.csv)
+- [`data/programs/csc_program_requirements.csv`](data/programs/csc_program_requirements.csv)
+- [`data/programs/csc_program_collection_queue.csv`](data/programs/csc_program_collection_queue.csv)
+
+Read [`docs/database-build-guide.md`](docs/database-build-guide.md) for the collection workflow.
+
 ## Excel Workbooks
 
 This repository now supports actual `.xlsx` workbooks under `workbooks/`.
@@ -126,6 +152,10 @@ The generated workbooks are:
 - `workbooks/required_documents.xlsx`
 - `workbooks/csc_deadlines.xlsx`
 - `workbooks/china_university_tiers.xlsx`
+- `workbooks/csc_host_universities.xlsx`
+- `workbooks/csc_program_catalog.xlsx`
+- `workbooks/csc_program_requirements.xlsx`
+- `workbooks/csc_program_collection_queue.xlsx`
 - `workbooks/master_university_contacts.xlsx`
 - `workbooks/university_intake_template.xlsx`
 
@@ -137,6 +167,14 @@ To run the enrichment script:
 
 ```powershell
 npm run collect:professors -- --input data/universities/professor_seed_template.csv --output data/universities/professor_enriched_output.csv
+```
+
+## Database Export
+
+To build a single JSON export of the structured university and program database:
+
+```powershell
+npm run build:database
 ```
 
 ## Suggested Workflow

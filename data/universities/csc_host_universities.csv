@@ -1,0 +1,15 @@
+university_id,university_name,province_or_city,campuschina_host_listed,agency_number,top_bucket,is_c9,is_985,is_211,international_admissions_url,csc_program_page_url,primary_source_url,source_last_checked,notes
+PKU,Peking University,Beijing,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+THU,Tsinghua University,Beijing,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+FDU,Fudan University,Shanghai,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+SJTU,Shanghai Jiao Tong University,Shanghai,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+ZJU,Zhejiang University,Zhejiang,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+USTC,University of Science and Technology of China,Anhui,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+NJU,Nanjing University,Jiangsu,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+HIT,Harbin Institute of Technology,Heilongjiang,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+XJTU,Xi'an Jiaotong University,Shaanxi,Yes,,C9,Yes,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Fill agency number and official admissions URLs from the university website
+WHU,Wuhan University,Hubei,Yes,,985_non_C9,No,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Example non-C9 985 university row
+HUST,Huazhong University of Science and Technology,Hubei,Yes,,985_non_C9,No,Yes,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Example non-C9 985 university row
+BUPT,Beijing University of Posts and Telecommunications,Beijing,Yes,,211_only,No,No,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Example 211-only university row
+XDU,Xidian University,Shaanxi,Yes,,211_only,No,No,Yes,,,https://www.campuschina.org/Upload/file/20240408/20240408111834_0971.pdf,2026-03-14,Example 211-only university row
+

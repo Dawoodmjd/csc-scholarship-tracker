@@ -1,0 +1,7 @@
+queue_id,university_id,university_name,priority,status,target_scope,last_attempted_on,source_url,notes
+QUEUE-001,PKU,Peking University,High,Not started,All Masters and PhD programs,,"https://www.isd.pku.edu.cn",Start with official international admissions programs page
+QUEUE-002,THU,Tsinghua University,High,Not started,All Masters and PhD programs,,"https://www.tsinghua.edu.cn/en/Admissions.htm",Start with official international admissions programs page
+QUEUE-003,FDU,Fudan University,High,Not started,All Masters and PhD programs,,"https://iso.fudan.edu.cn",Start with official international admissions programs page
+QUEUE-004,SJTU,Shanghai Jiao Tong University,High,Not started,All Masters and PhD programs,,"https://isc.sjtu.edu.cn",Start with official international admissions programs page
+QUEUE-005,ZJU,Zhejiang University,High,Not started,All Masters and PhD programs,,"https://iczu.zju.edu.cn",Start with official international admissions programs page
+
