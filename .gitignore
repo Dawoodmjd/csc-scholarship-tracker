@@ -1,0 +1,16 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+
+# Generated data exports
+exports/
+

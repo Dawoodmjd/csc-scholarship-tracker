@@ -1,0 +1,11 @@
+{
+  "name": "csc-scholarship-repo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tracking repository for CSC scholarship documents, deadlines, and university professor research data.",
+  "scripts": {
+    "build:xlsx": "powershell -ExecutionPolicy Bypass -File scripts/export-xlsx.ps1",
+    "collect:professors": "node scripts/collect-professor-data.mjs"
+  }
+}
+
