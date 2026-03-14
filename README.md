@@ -25,23 +25,25 @@ It is designed to help applicants track:
 |       |-- by-university/
 |       |   |-- README.md
 |       |   `-- example-university.csv
+|       |-- china_university_tiers.csv
 |       |-- master_university_contacts.csv
 |       |-- professor_seed_template.csv
 |       `-- university_intake_template.csv
 |-- docs/
 |   |-- automation-guide.md
 |   |-- collection-guide.md
-|   `-- getting-started.md
+|   |-- getting-started.md
+|   `-- university-selection-guide.md
 |-- scripts/
 |   |-- collect-professor-data.mjs
 |   `-- export-xlsx.ps1
 |-- workbooks/
 |   |-- csc_deadlines.xlsx
+|   |-- china_university_tiers.xlsx
 |   |-- master_university_contacts.xlsx
 |   |-- required_documents.xlsx
 |   `-- university_intake_template.xlsx
 |-- CONTRIBUTING.md
-|-- docs/
 |-- .gitignore
 |-- index.html
 |-- LICENSE
@@ -57,8 +59,18 @@ If this is your first time using a repository, open these in order:
 2. [`workbooks/required_documents.xlsx`](workbooks/required_documents.xlsx)
 3. [`workbooks/csc_deadlines.xlsx`](workbooks/csc_deadlines.xlsx)
 4. [`workbooks/master_university_contacts.xlsx`](workbooks/master_university_contacts.xlsx)
+5. [`workbooks/china_university_tiers.xlsx`](workbooks/china_university_tiers.xlsx)
 
 ## What To Track
+
+### 0. University Tier Reference
+Use [`data/universities/china_university_tiers.csv`](data/universities/china_university_tiers.csv) to sort universities by:
+
+- `C9`
+- `985` non-`C9`
+- `211` only
+
+Read [`docs/university-selection-guide.md`](docs/university-selection-guide.md) before building your shortlist.
 
 ### 1. Required Documents
 Use [`data/documents/required_documents.csv`](data/documents/required_documents.csv) to list each item needed for a CSC application.
@@ -113,6 +125,7 @@ The generated workbooks are:
 
 - `workbooks/required_documents.xlsx`
 - `workbooks/csc_deadlines.xlsx`
+- `workbooks/china_university_tiers.xlsx`
 - `workbooks/master_university_contacts.xlsx`
 - `workbooks/university_intake_template.xlsx`
 

@@ -286,6 +286,11 @@ $jobs = @(
         Csv = Join-Path $root "data\universities\university_intake_template.csv"
         Xlsx = Join-Path $outputRoot "university_intake_template.xlsx"
         Sheet = "University Template"
+    },
+    @{
+        Csv = Join-Path $root "data\universities\china_university_tiers.csv"
+        Xlsx = Join-Path $outputRoot "china_university_tiers.xlsx"
+        Sheet = "China University Tiers"
     }
 )
 
