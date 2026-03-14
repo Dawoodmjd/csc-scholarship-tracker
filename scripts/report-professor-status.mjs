@@ -65,11 +65,13 @@ async function main() {
   const csvPath = path.join(root, "data/professors/professor_master.csv");
   const queuePath = path.join(root, "data/professors/professor_collection_queue.csv");
   const detailsPath = path.join(root, "data/professors/professor_details.csv");
+  const outreachPath = path.join(root, "data/professors/professor_outreach.csv");
   const reportPath = path.join(root, "reports/professor_status_report.md");
 
   const professors = parseCsv(await fs.readFile(csvPath, "utf8"));
   const queue = parseCsv(await fs.readFile(queuePath, "utf8"));
   const details = parseCsv(await fs.readFile(detailsPath, "utf8"));
+  const outreach = parseCsv(await fs.readFile(outreachPath, "utf8"));
 
   const missingScholar = professors.filter((row) => !row.google_scholar_url).length;
   const missingResearchGate = professors.filter((row) => !row.researchgate_url).length;
@@ -83,6 +85,8 @@ async function main() {
   const detailWithPhone = details.filter((row) => row.office_phone).length;
   const detailWithEducation = details.filter((row) => row.education_background).length;
   const detailWithWebsite = details.filter((row) => row.personal_website).length;
+  const outreachRows = outreach.length;
+  const outreachStarted = outreach.filter((row) => row.email_progress && !["", "None", "Not sent"].includes(row.email_progress)).length;
 
   const lines = [
     "# Professor Status Report",
@@ -103,6 +107,8 @@ async function main() {
     `- Detailed profiles with phone: ${detailWithPhone}`,
     `- Detailed profiles with education background: ${detailWithEducation}`,
     `- Detailed profiles with personal website: ${detailWithWebsite}`,
+    `- Outreach rows captured: ${outreachRows}`,
+    `- Outreach rows with progress started: ${outreachStarted}`,
     "",
     "## Universities Covered",
     "",

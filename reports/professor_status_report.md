@@ -1,6 +1,6 @@
 # Professor Status Report
 
-Generated: 2026-03-14T05:41:33.698Z
+Generated: 2026-03-14T05:57:29.501Z
 
 ## Summary
 
@@ -16,6 +16,8 @@ Generated: 2026-03-14T05:41:33.698Z
 - Detailed profiles with phone: 10
 - Detailed profiles with education background: 13
 - Detailed profiles with personal website: 5
+- Outreach rows captured: 8
+- Outreach rows with progress started: 2
 
 ## Universities Covered
 
